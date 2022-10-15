@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.io.Console;
+
+public class Main {
+    public static void main(String[] args) {
+
+    int mat,fiz,kim,tr,tar,muz;
+    Scanner inp=new Scanner(System.in);
+
+        System.out.println("Matematik notunuz: ");
+         mat= inp.nextInt();
+
+        System.out.println("Fizik notunuz: ");
+        fiz= inp.nextInt();
+
+        System.out.println("Kimya notunuz: ");
+        kim= inp.nextInt();
+
+        System.out.println("Türkçe notunuz: ");
+        tr= inp.nextInt();
+
+        System.out.println("Tarih notunuz: ");
+        tar= inp.nextInt();
+
+        System.out.println("Müzik notunuz: ");
+        muz= inp.nextInt();
+
+        double sonuc=(mat+fiz+kim+muz+tar+tr)/6.0;
+        System.out.println("ORTALAMANIZ: " + sonuc);
+
+
+    }
+}
